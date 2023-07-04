@@ -37,7 +37,7 @@ export const aboutData = [
     {
         id: 5,
         Image:  proD5,
-        title: "Celling",   
+        title: "Furnicture",   
         describe: "The fall ceiling: A breathtaking canopy of artistic craftsmanship, transforming spaces with its graceful embrace and enchanting allure.",     
     },
     {

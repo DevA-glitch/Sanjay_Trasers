@@ -34,6 +34,15 @@ import Dp4 from '../../Img/doors/Dp-4.jpg';
 import Dp5 from '../../Img/doors/Dp-5.png';
 import Dp6 from '../../Img/doors/Dp-6.jpg';
 import Dp7 from '../../Img/doors/Dp-7.jpg';
+import Bp1 from '../../Img/beds/Bp-1.jpg';
+import Bp2 from '../../Img/beds/Bp-2.jpg';
+import Bp3 from '../../Img/beds/Bp-3.jpg';
+import Bp4 from '../../Img/beds/Bp-4.jpg';
+import Bp5 from '../../Img/beds/Bp-5.jpg';
+import Bp6 from '../../Img/beds/Bp-6.jpg';
+import Bp7 from '../../Img/beds/Bp-7.jpg';
+import Bp8 from '../../Img/beds/Bp-8.png';
+
 
 const ProductPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -70,9 +79,17 @@ const ProductPage = () => {
     { id: 30, src: Dp5, title: 'Doors', category: 'Doors' },
     { id: 31, src: Dp6, title: 'Doors', category: 'Doors' },
     { id: 32, src: Dp7, title: 'Doors', category: 'Doors' },
+    { id: 33, src: Bp1, title: 'Bed', category: 'Beds' },
+    { id: 34, src: Bp2, title: 'Bed', category: 'Beds' },
+    { id: 35, src: Bp3, title: 'Bed', category: 'Beds' },
+    { id: 36, src: Bp4, title: 'Bed', category: 'Beds' },
+    { id: 37, src: Bp5, title: 'Bed', category: 'Beds' },
+    { id: 38, src: Bp6, title: 'Bed', category: 'Beds' },
+    { id: 39, src: Bp7, title: 'Bed', category: 'Beds' },
+    { id: 40, src: Bp8, title: 'Bed', category: 'Beds' },
   ]);
 
-  const categories = ['all', 'Kitchen', 'Poja', 'Doors', 'category4', 'category5'];
+  const categories = ['all', 'Kitchen', 'Poja', 'Doors', 'Beds', 'category5'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
