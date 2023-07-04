@@ -1,0 +1,37 @@
+.map iframe {
+    box-shadow: 10px 10px rgb(217, 217, 217);
+}
+
+@media(max-width: 963px) {
+    .map iframe {
+        width: 70vh;
+    }
+}
+
+@media(max-width: 858px) {
+    .map iframe {
+        width: 60vh;
+    }
+}
+
+@media(max-width: 425px) {
+    .map iframe {
+        width: 43vh;
+    }
+
+    .coact-page input {
+        width: 40vh;
+    }
+
+    .coact-page textarea {
+        width:40vh;
+    }
+}
+
+@media(max-width: 750px) {
+   .coact-page {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+}
