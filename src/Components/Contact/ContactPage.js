@@ -5,7 +5,7 @@ import "../Contact/contactPage.css"
 const ContactPage = () => {
     return (
         <>
-            <div className='mt-20'>
+            <div className='mt-20 mb-20'>
                 <div className='flex items-start justify-around coact-page'>
                 <div className='flex flex-col gap-4'>
                 <h1 className='text-4xl font-bold'>#Lets Talk</h1>

@@ -41,33 +41,33 @@ const Home = () => {
           <button className='bg-black text-white px-4 py-2'>View All Product</button>
         </Link>
       </div>
-      <div className='text-center px-5 py-5 bg-[#F56D91] text-white flex flex-col gap-5'>
-      <h1 className='text-4xl font-bold'>Why Sanjay Traders..?</h1>
-      <div className='flex items-center justify-around flex-wrap'>
-        <div className='flex items-center justify-center flex-col gap-3'>
-          <img src={servies1} alt='logo' className='w-[6rem]' />
-          <h2 className='text-lg font-bold'>13 Year Experience</h2>
-          <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
-        </div>
+      <div className='text-center px-5 py-5 bg-[#E2F6EF] text-black flex flex-col gap-5'>
+        <h1 className='text-4xl font-bold'>Why Sanjay Traders..?</h1>
+        <div className='flex items-center justify-around flex-wrap'>
+          <div className='flex items-center justify-center flex-col gap-3'>
+            <img src={servies1} alt='logo' className='w-[6rem]' />
+            <h2 className='text-lg font-bold'>13 Year Experience</h2>
+            <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
+          </div>
 
-        <div className='flex items-center justify-center flex-col gap-3'>
-          <img src={servies2} alt='logo' className='w-[6rem]' />
-          <h2 className='text-lg font-bold'>13 Year Experience</h2>
-          <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
-        </div>
+          <div className='flex items-center justify-center flex-col gap-3'>
+            <img src={servies2} alt='logo' className='w-[6rem]' />
+            <h2 className='text-lg font-bold'>13 Year Experience</h2>
+            <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
+          </div>
 
-        <div className='flex items-center justify-center flex-col gap-3'>
-          <img src={servies3} alt='logo' className='w-[6rem]' />
-          <h2 className='text-lg font-bold'>13 Year Experience</h2>
-          <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
-        </div>
+          <div className='flex items-center justify-center flex-col gap-3'>
+            <img src={servies3} alt='logo' className='w-[6rem]' />
+            <h2 className='text-lg font-bold'>13 Year Experience</h2>
+            <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
+          </div>
 
-        <div className='flex items-center justify-center flex-col gap-3'>
-          <img src={servies4} alt='logo' className='w-[6rem]' />
-          <h2 className='text-lg font-bold'>13 Year Experience</h2>
-          <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
+          <div className='flex items-center justify-center flex-col gap-3'>
+            <img src={servies4} alt='logo' className='w-[6rem]' />
+            <h2 className='text-lg font-bold'>13 Year Experience</h2>
+            <p className='w-[20rem] font-semibold'>Choose interiors designed with superior quality material, leaving no room for defects.</p>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   )
