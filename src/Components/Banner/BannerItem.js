@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 import "../Banner/BannerItem.css"
 import image from "../../Img/pngtree-nordic-minimalist-furniture-banner-design-picture-image_1039338.jpg"
 import image_1 from "../../Img/banner-2.jpg"

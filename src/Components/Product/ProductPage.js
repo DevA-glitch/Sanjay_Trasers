@@ -89,7 +89,7 @@ const ProductPage = () => {
     { id: 40, src: Bp8, title: 'Bed', category: 'Beds' },
   ]);
 
-  const categories = ['all', 'Kitchen', 'Poja', 'Doors', 'Beds', 'category5'];
+  const categories = ['all', 'Kitchen', 'Poja', 'Doors', 'Beds', 'category5', 'category5'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
@@ -160,7 +160,7 @@ const ProductPage = () => {
           <div className="w-[14rem] h-[1.5px] bg-slate-400"></div>
         </div>
       </div>
-      <div className="p-4 mx-[1rem]">
+      <div className="">
         <div className="bg-slate-200 flex items-center justify-between">
           <p className="text-xl text-black px-1">
             <Link to="/">Home</Link> / <span className=" text-slate-300 cursor-not-allowed">Product</span>
@@ -172,7 +172,7 @@ const ProductPage = () => {
         <div className="flex items-start justify-between mt-3 p-container bg-slate-50">
           <div className="flex items-center gap-3 flex-wrap bg-white">
             {filteredImages.map((image) => (
-              <div className="flex flex-col hover:bg-gray-900 hover:text-white p-img">
+              <div className="flex flex-col hover:bg-gray-900 hover:text-white p-img translate-x-1 skew-y-1 md:transform-none p-3">
                 <img
                   className="cursor-pointer border-2 p-image hover:scale-[90%] md:transform-none duration-500"
                   key={image.id}
@@ -185,7 +185,7 @@ const ProductPage = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-col items-start px-10 mt-[3rem] text-right sticky top-32 z-50 p-cat">
+          <div className="flex flex-col items-start px-10 mt-[3rem] text-right sticky top-32 z-30 p-cat">
             <h1 className="text-xl font-bold p-text">Categories:</h1>
             {categories.map((category) => (
               <div className=" link">

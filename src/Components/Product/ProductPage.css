@@ -51,21 +51,18 @@
     } 
 
     .p-cat {
-        background: rgb(255, 104, 104);
         flex-direction: row;
+        background-color: white;
         flex-wrap:wrap;
-        top: 4.02rem;
+        top: 6.02rem;
         margin: 0;
         padding: 10px;
         text-align: center;
-        font-weight: 600;
-        width: 100%;
+        font-weight: 500;
     }
 
     .p-cat button {
-        background-color: rgba(0, 0, 0, 0.385);
-        color: rgb(255, 255, 255);
-        padding:4px 4px;
+        font-size: 13px;
     }
 
     .p-text {
@@ -113,7 +110,8 @@
   
   @media (max-width: 480px) {
     .selected-image {
-      width: 100rem;
+      max-width: 45vh;
+      height: 40vh;
     }
   }
   
