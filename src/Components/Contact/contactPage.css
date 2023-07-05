@@ -1,5 +1,6 @@
 .map iframe {
     box-shadow: 10px 10px rgb(217, 217, 217);
+    border: 3px solid rgb(101, 101, 101);
 }
 
 @media(max-width: 963px) {

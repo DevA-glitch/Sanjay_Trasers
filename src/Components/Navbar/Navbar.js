@@ -18,10 +18,9 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 w-full z-50 py-2 bg-white shadow-sm'>
       <div className=''>
-        <div className='flex items-center justify-between py-2 px-4 sm:px-6 lg:px-8'>
+        <div className='flex items-center justify-around gap-48 py-2 px-4 sm:px-6 lg:px-8'>
           <div className='logo flex items-center gap-3'>
-            <img src={Logo} alt='logo' className='w-[4rem]' />
-            <h1 className='text-2xl font-bold'> _ Traders</h1>
+            <img src={Logo} alt='logo' className='w-[12rem] h-[3.5rem]' />
           </div>
           <div className='nav-item_links hidden sm:block'>
             <ul className='flex items-center font-bold gap-[4rem]'>
