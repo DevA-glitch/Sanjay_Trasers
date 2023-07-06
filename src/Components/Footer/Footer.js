@@ -2,34 +2,25 @@ import React from 'react'
 import "../Footer/Footer.css"
 import { FaWhatsapp } from 'react-icons/fa';
 import { IoMdCall } from 'react-icons/io';
+import logo from "../../Img/logo.png"
 
 const Footer = () => {
   return (
     <>
       <div class="bg-footer bg-black text-white">
-        <div class="footer-flex">
-          <div class="footer1">
-            <h2>furniture</h2>
-            <section>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laboriosam exercitationem eius labore commodi illum autem asperiores doloribus praesentium non ut.
+        <div class="footer-flex flex items-center p-5 justify-around">
+          <div class="footer1 flex items-start gap-5 flex-col">
+            <img src={logo} alt='logo' className='w-[10rem] h-[2.5rem]' />
+            <section className='w-[20rem] leading-8 fotter-p'> 
+            At Sanjay Traders, our mission is to transform homes into comfortable and inspiring spaces by providing top-notch products and services. We strive to understand the unique requirements of our customers and deliver tailored solutions that exceed their expectations. With a customer-centric approach, we aim to enhance the quality of life for homeowners, making their living spaces more functional, stylish, and personalized.
             </section>
           </div>
-          <div class="footer1">
-            <h2>helpful links</h2>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">our blog</a></li>
-            <li><a href="#">visit site</a></li>
+          <div class="footer1 flex items-start text-start justify-start flex-col gap-3">
+            <h2 className='mb-3 font-bold text-xl'>helpful links</h2>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Product</a></li>
             <li><a href="#">contact us</a></li>
-            <li><a href="#">apply a job</a></li>
-          </div>
-          <div class="footer1">
-            <h2>shopping</h2>
-            <li><a href="#">online cards</a></li>
-            <li><a href="#">return policy</a></li>
-            <li><a href="#">privacy policy</a></li>
-            <li><a href="#">shipping</a></li>
-            <li><a href="#">inventory</a></li>
           </div>
           <div class="footer1">
             <h2>payment method</h2>
@@ -41,12 +32,11 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="copy">
-          <section>
+        <div class="copy text-center bg-white text-black p-1">
             copyright &copy; at 2021 by <span>web tutorial.</span>
-          </section>
         </div>
       </div>
+
       <div className=''>
         <div className=' fixed bottom-6 bg-gray-50 z-50 flex items-center gap-3 p-2 rounded-full shadow-md right-3'>
           <div>

@@ -28,6 +28,25 @@ import Np10 from "../../Img/Nets/Np-10.jpg"
 import Np11 from "../../Img/Nets/Np-11.jpg"
 import Np12 from "../../Img/Nets/Np-12.jpg"
 import Np13 from "../../Img/Nets/Np-13.jpg"
+import Sp1 from "../../Img/Showcase/Sp-1.jpg"
+import Sp2 from "../../Img/Showcase/Sp-2.jpg"
+import Sp3 from "../../Img/Showcase/Sp-3.jpg"
+import Sp4 from "../../Img/Showcase/Sp-4.jpg"
+import Sp5 from "../../Img/Showcase/Sp-5.jpg"
+import Sp6 from "../../Img/Showcase/Sp-6.jpg"
+import Sp7 from "../../Img/Showcase/Sp-7.jpg"
+import Sp8 from "../../Img/Showcase/Sp-8.jpg"
+import Sp9 from "../../Img/Showcase/Sp-9.jpg"
+import Sp10 from "../../Img/Showcase/Sp-10.jpg"
+import Sp11 from "../../Img/Showcase/Sp-11.jpg"
+import Sp12 from "../../Img/Showcase/Sp-12.jpg"
+import Sp13 from "../../Img/Showcase/Sp-13.jpg"
+import Sp14 from "../../Img/Showcase/Sp-14.jpg"
+import Sp15 from "../../Img/Showcase/Sp-15.jpg"
+import Sp17 from "../../Img/Showcase/Sp-17.jpg"
+import Sp18 from "../../Img/Showcase/Sp-18.jpg"
+import Sp19 from "../../Img/Showcase/Sp-19.jpg"
+import Sp20 from "../../Img/Showcase/Sp-20.jpg"
 import Pp1 from '../../Img/pooja/Pp-1.jpg';
 import Pp2 from '../../Img/pooja/Pp-2.jpg';
 import Pp3 from '../../Img/pooja/Pp-3.jpg';
@@ -82,6 +101,25 @@ const ProductPage = () => {
     { id: 9, src: Np11, title: 'NetScreen', category: 'NetScreen' },
     { id: 9, src: Np12, title: 'NetScreen', category: 'NetScreen' },
     { id: 9, src: Np13, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Sp1, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp2, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp3, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp4, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp5, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp6, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp7, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp8, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp9, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp10, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp11, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp12, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp13, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp14, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp15, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp17, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp18, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp19, title: 'Selfs', category: 'Selfs' },
+    { id: 9, src: Sp20, title: 'Selfs', category: 'Selfs' },
     { id: 10, src: Kb10, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 11, src: Kb11, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 12, src: Kb12, title: 'Kitchen Modular', category: 'Kitchen' },
@@ -115,7 +153,7 @@ const ProductPage = () => {
     { id: 40, src: Bp8, title: 'Bed', category: 'Beds' },
   ]);
 
-  const categories = ['all', 'Kitchen', 'NetScreen', 'Poja', 'Doors', 'Beds', 'category5', 'category5'];
+  const categories = ['all', 'Kitchen', 'NetScreen', 'Selfs', 'Poja', 'Doors', 'Beds', 'category5', 'category5'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
