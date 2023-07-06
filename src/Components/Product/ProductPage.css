@@ -53,6 +53,7 @@
     .p-cat {
         flex-direction: row;
         background-color: white;
+        justify-content: center;
         flex-wrap:wrap;
         top: 5.02rem;
         margin: 0;
