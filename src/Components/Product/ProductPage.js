@@ -15,6 +15,19 @@ import Kb10 from '../../Img/kitchen/Kb-10.jpg';
 import Kb11 from '../../Img/kitchen/Kb-11.jpg';
 import Kb12 from '../../Img/kitchen/Kb-12.jpg';
 import Kb13 from '../../Img/kitchen/Kb-13.jpg';
+import Np1 from "../../Img/Nets/Np-1.jpg"
+import Np2 from "../../Img/Nets/Np-2.jpg"
+import Np3 from "../../Img/Nets/Np-3.jpg"
+import Np4 from "../../Img/Nets/Np-4.jpg"
+import Np5 from "../../Img/Nets/Np-5.jpg"
+import Np6 from "../../Img/Nets/Np-6.jpg"
+import Np7 from "../../Img/Nets/Np-7.jpg"
+import Np8 from "../../Img/Nets/Np-8.jpg"
+import Np9 from "../../Img/Nets/Np-9.jpg"
+import Np10 from "../../Img/Nets/Np-10.jpg"
+import Np11 from "../../Img/Nets/Np-11.jpg"
+import Np12 from "../../Img/Nets/Np-12.jpg"
+import Np13 from "../../Img/Nets/Np-13.jpg"
 import Pp1 from '../../Img/pooja/Pp-1.jpg';
 import Pp2 from '../../Img/pooja/Pp-2.jpg';
 import Pp3 from '../../Img/pooja/Pp-3.jpg';
@@ -56,6 +69,19 @@ const ProductPage = () => {
     { id: 7, src: Kb7, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 8, src: Kb8, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 9, src: Kb9, title: 'Kitchen Modular', category: 'Kitchen' },
+    { id: 9, src: Np1, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np2, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np3, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np4, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np5, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np6, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np7, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np8, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np9, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np10, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np11, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np12, title: 'NetScreen', category: 'NetScreen' },
+    { id: 9, src: Np13, title: 'NetScreen', category: 'NetScreen' },
     { id: 10, src: Kb10, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 11, src: Kb11, title: 'Kitchen Modular', category: 'Kitchen' },
     { id: 12, src: Kb12, title: 'Kitchen Modular', category: 'Kitchen' },
@@ -89,7 +115,7 @@ const ProductPage = () => {
     { id: 40, src: Bp8, title: 'Bed', category: 'Beds' },
   ]);
 
-  const categories = ['all', 'Kitchen', 'Poja', 'Doors', 'Beds', 'category5', 'category5'];
+  const categories = ['all', 'Kitchen', 'NetScreen', 'Poja', 'Doors', 'Beds', 'category5', 'category5'];
 
   const handleCategoryChange = (category) => {
     setSelectedCategory(category);
@@ -185,7 +211,7 @@ const ProductPage = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-col items-start px-10 mt-[3rem] text-right sticky top-32 z-30 p-cat">
+          <div className="flex flex-col items-start px-10 mt-[3rem] text-start sticky top-32 z-30 p-cat">
             <h1 className="text-xl font-bold p-text">Categories:</h1>
             {categories.map((category) => (
               <div className=" link">
