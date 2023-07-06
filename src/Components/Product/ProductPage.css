@@ -59,10 +59,13 @@
         padding: 10px;
         text-align: center;
         font-weight: 500;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
     }
 
     .p-cat button {
         font-size: 13px;
+        border-right: 2px solid black;
+        padding-right: .5rem;
     }
 
     .p-text {
