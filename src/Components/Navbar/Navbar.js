@@ -66,7 +66,7 @@ const Navbar = () => {
       {/* Responsive mobile menu */}
       {showMenu && (
         <div className='sm:hidden'>
-          <ul className='font-bold text-center'>
+          <ul className='font-bold text-center flex items-center duration-300 justify-center gap-10 flex-col h-[60vh]'>
             <li>
               <Link to='/' onClick={hideMenu}>Home</Link>
             </li>
