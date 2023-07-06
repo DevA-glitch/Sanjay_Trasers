@@ -156,11 +156,11 @@ const ProductPage = () => {
       <div className="text-center">
         <p className="mb-3 mt-4 text-sm font-medium">Browse our items</p>
         <h1 className="mb-4 text-4xl font-semibold">Our Products</h1>
-        <div className="flex justify-center my-1">
+        <div className="flex justify-center my-1 mb-5">
           <div className="w-[14rem] h-[1.5px] bg-slate-400"></div>
         </div>
       </div>
-      <div className="">
+      <div className="px-3">
         <div className="bg-slate-200 flex items-center justify-between">
           <p className="text-xl text-black px-1">
             <Link to="/">Home</Link> / <span className=" text-slate-300 cursor-not-allowed">Product</span>
@@ -211,7 +211,7 @@ const ProductPage = () => {
             src={selectedImage.src}
             alt={`Selected Image ${selectedImage.id}`}
           />
-          <button className="close-button" onClick={() => setSelectedImage(null)}>
+          <button className="close-button bg-black text-white p-2" onClick={() => setSelectedImage(null)}>
             Close
           </button>
         </div>

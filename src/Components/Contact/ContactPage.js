@@ -29,13 +29,13 @@ const ContactPage = () => {
                         <div>
                             <h2 className='text-2xl'>WhatsApp Us:</h2>
                             <h3 className=' bg-green-400 text-center px-5 py-2'>
-                            <a className='text-xl' href='https://www.whatsapp.com/'>+91 6866868686</a>
+                            <a className='text-xl' href='https://wa.me/+918012363063'>+91 8012363063</a>
                             </h3>
                         </div>
                         <div>
                             <h2 className='text-2xl'>Call Us:</h2>
                             <h3 className=' bg-blue-300 text-center px-5 py-2'>
-                            <a  className='text-xl' href='https://www.whatsapp.com/'>+91 6866868686</a>
+                            <a  className='text-xl' href="tel:+917904221920">+917904221920</a>
                             </h3>
                         </div>
                     </div>
