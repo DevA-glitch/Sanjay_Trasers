@@ -18,9 +18,10 @@ const Navbar = () => {
     <div className='sticky top-0 w-full z-50 py-2 bg-white shadow-sm'>
       <div className=''>
         <div className='flex items-center justify-around gap-48 py-2 px-4 sm:px-6 lg:px-8'>
-          <div className='logo flex items-center gap-3'>
-            <img src={Logo} alt='logo' className='w-[2rem] h-[3rem]' />
-            <h1  className=' text-2xl font-bold text-[#068FFF]'>Sanjay Traders</h1>
+          <div>
+            <Link className='logo flex items-center gap-3' to="/">
+              <img src={Logo} alt='logo' className='w-[2rem] h-[3rem]' />
+              <h1 className=' text-2xl font-bold text-[#068FFF]'>Sanjay Traders</h1></Link>
           </div>
           <div className='nav-item_links hidden sm:block'>
             <ul className='flex items-center font-bold gap-[4rem]'>
